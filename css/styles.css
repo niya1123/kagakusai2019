@@ -1,0 +1,292 @@
+﻿@charset "UTF-8";
+
+html {
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  background-color: blanchedalmond;
+  font-family: 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Helvetica, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+header {
+  background:skyblue;
+  /* margin: 4px; */
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.menu {
+  min-width: 912px;
+}
+
+.list {
+  background: #fff;
+  float: left;
+  margin-right: calc( (100% - 18% * 5) / 11);
+  margin-left: calc( (100% - 18% * 5) / 11);
+  margin-top: 3px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  text-align: center;
+  width: 18%;
+  border: solid 2px lightgreen;
+  box-sizing: border-box;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.list:hover {
+  background-color: lightgreen;
+}
+
+.sublist{
+  background-color: #00ffff;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  color: green;
+}
+
+.button:hover {
+  color: #fff;
+}
+/* ▲ヘッダー関係 */
+
+
+/* ▼index */
+#main {
+  /* background: lightgray; */
+  clear: both;
+  padding: 24px;
+  padding: 8px 24px 24px 24px;
+  border-top: solid 2px gray;
+  margin: 24px;
+  min-width: 912px;
+}
+
+/* ▼各部アイコン */
+.icon {
+  width: 20%;
+  border-radius: 50%;
+}
+.icon4 {
+  float: left;
+}
+.icon3 {
+  float:left;
+}
+
+.icon-ev {
+  z-index: 4;
+}
+.icon-elec {
+  z-index: 5;
+  position: relative;
+  bottom: 30px;
+  right: 20px;
+}
+.icon-archi {
+  z-index: 6;
+  position: relative;
+  bottom: 30px;
+  right: 40px;
+}
+.icon-nede {
+  z-index: 7;
+  position: relative;
+  right: 60px;
+}
+.icon-den {
+  z-index: 1;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+}
+.icon-robo {
+  z-index: 2;
+  position: relative;
+  bottom: 60px;
+  right: 20px;
+}
+.icon-chem {
+  z-index: 3;
+  position: relative;
+  bottom: 40px;
+  right: 40px;
+}
+/* ▲各部アイコン */
+
+#sf-b {
+  background: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 50px;
+  width: 500px;
+  height: 70px;
+  border: solid skyblue;
+  border-radius: 5px;
+}
+
+#sf-g {
+  background: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: calc( 50px / 2 );
+  width: calc( 500px / 2 );
+  height: calc( 70px / 2 );
+  border: solid lightgreen;
+  border-radius: 5px;
+}
+
+.text {
+  font-size: 1.25rem;
+  border-bottom: solid 1px orange;
+}
+
+.center {
+  text-align: center;
+  /* min-width: 912px; */
+}
+
+/* ▲index */
+
+
+footer {
+  border-top: solid 2px gray;
+  text-align: center;
+  border-radius: 10px;
+  background: lightgray;
+  min-width: 584px;
+  height: 146px;
+}
+
+
+/* ▼footer下げるやつ */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-table;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -146px;
+}
+.push {
+  height: 146px;
+}
+/* ▲footer下げるやつ */
+
+
+/* ▼各部ページ */
+.clubimg {
+  width: 180px;
+  margin: 20px;
+}
+
+.club-title {
+  background: white;
+  text-align: center;
+  width: 40%;
+  font-size: 20px;
+  border: 3px solid black;
+  display: inline-block;
+  position: relative;
+  top: 53px;
+  left: 10px;
+}
+
+div.text{
+  padding: 10px ;
+}
+
+.booth{
+  border: 3px solid black;
+  background-color: #FFA500;
+  padding: 30px 30px 0px 40px;
+  margin-top: 30px;
+}
+.booth h1{
+  color: crimson;
+}
+.stage{
+  margin-top: 20px;
+  border: 3px solid black;
+  background-color: #87CEFA;
+  padding: 10px 30px 10px 40px;
+}
+.stage h1{
+  color: blue;
+}
+.L-container {
+  float: left;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.R-container {
+  float: left;
+  width: 60%;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+/* ▲各部ページ */
+
+
+/* ▼history */
+#historyTable {
+  background: white;
+  border: solid 3px lightgreen;
+  border-radius: 10px;
+  width: 85%;
+}
+td {
+  /* background: white; */
+  /* background: pink; */
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.caption {
+  border-bottom: double 3px lightgreen;
+  padding: 10px;
+}
+.thcaption {
+  border-bottom: dotted 3px lightgreen;
+  padding: 10px;
+}
+.td-bottomline {
+  border-bottom: dashed 3px lightgreen;
+}
+.historyImg {
+  height: 15%;
+}
+
+.tdtext {
+  font-size: 1.25rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tdlink {
+  background: lightgreen;
+  border-radius: 40px;
+  height: 30px;
+  line-height: 30px;
+}
+/* ▲history */
