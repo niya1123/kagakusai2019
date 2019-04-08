@@ -13,10 +13,11 @@ body {
 }
 
 header {
-  background:skyblue;
+  background:black;
   /* margin: 4px; */
-  padding: 10px;
+  padding: 12px;
   border-radius: 2px;
+  color: white;
 }
 
 .menu {
@@ -26,8 +27,8 @@ header {
 .list {
   background: #fff;
   float: left;
-  margin-right: calc( (100% - 18% * 5) / 11);
-  margin-left: calc( (100% - 18% * 5) / 11);
+  margin-right: calc( (100% - 18% * 4) / 11);
+  margin-left: calc( (100% - 18% * 4) / 11);
   margin-top: 3px;
   margin-bottom: 8px;
   border-radius: 2px;
@@ -246,47 +247,3 @@ div.text{
   margin-top: 30px;
 }
 /* ▲各部ページ */
-
-
-/* ▼history */
-#historyTable {
-  background: white;
-  border: solid 3px lightgreen;
-  border-radius: 10px;
-  width: 85%;
-}
-td {
-  /* background: white; */
-  /* background: pink; */
-  text-align: center;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.caption {
-  border-bottom: double 3px lightgreen;
-  padding: 10px;
-}
-.thcaption {
-  border-bottom: dotted 3px lightgreen;
-  padding: 10px;
-}
-.td-bottomline {
-  border-bottom: dashed 3px lightgreen;
-}
-.historyImg {
-  height: 15%;
-}
-
-.tdtext {
-  font-size: 1.25rem;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.tdlink {
-  background: lightgreen;
-  border-radius: 40px;
-  height: 30px;
-  line-height: 30px;
-}
-/* ▲history */
