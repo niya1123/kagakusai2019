@@ -74,6 +74,8 @@ header {
 /* ▼各部アイコン */
 .icon {
   width: 20%;
+  top: 50%;    
+  left: 40%;
   border-radius: 50%;
 }
 .icon4 {
