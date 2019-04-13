@@ -59,13 +59,10 @@
     font-weight:bold;
     font-size:18px;
     text-align:center;
-    visibility:hidden;
+    visibility:visible;
     border:2px solid white;
     border-radius:20px;
     box-shadow:0 3px 4px black;
-  }
-  .carousel > label:hover:after {
-    visibility:visible;
   }
   
   .carousel > input:checked + label:after {

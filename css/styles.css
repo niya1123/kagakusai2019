@@ -184,7 +184,7 @@ footer {
   margin-bottom: -146px;
 }
 .push {
-  height: 146px;
+  height: 1500px;
 }
 /* ▲footer下げるやつ */
 
@@ -205,6 +205,13 @@ footer {
   position: relative;
   top: 53px;
   left: 10px;
+}
+
+.club-about{
+  border: 3px solid black;
+  background-color: #FFA500;
+  padding: 30px 30px 0px 40px;
+  margin-top: 30px;
 }
 
 div.text{
