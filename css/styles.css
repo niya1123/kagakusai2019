@@ -92,12 +92,7 @@ header {
   bottom: 30px;
   right: 20px;
 }
-.icon-archi {
-  z-index: 6;
-  position: relative;
-  bottom: 30px;
-  right: 40px;
-}
+
 .icon-nede {
   z-index: 7;
   position: relative;
