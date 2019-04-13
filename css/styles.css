@@ -164,27 +164,16 @@ footer {
 
 
 /* ▼footer下げるやつ */
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: 20px;
 }
-.clearfix {
-  display: inline-table;
-}
-/* Hides from IE-mac \*/
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
-/* End hide from IE-mac */
 
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -146px;
-}
-.push {
-  height: 146px;
+footer {
+  margin-top: 20px;
 }
 /* ▲footer下げるやつ */
 
