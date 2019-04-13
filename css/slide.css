@@ -1,7 +1,9 @@
 
   .carousel {
     position:relative;
-    width:400px;
+    width:520px;
+    right:10%;
+    height: auto;
     border:10px solid white;
     margin:20px auto;
   }
