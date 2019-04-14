@@ -8,12 +8,16 @@ html {
 body {
   height: 100%;
   margin: 0px;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
+  background: url("../img/BG.png");
+  background-size: 30%;
+  
   font-family: 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Helvetica, Arial, 'ＭＳ Ｐゴシック', sans-serif;
 }
 
 header {
-  background:black;
+  /* background:black; */
+  background: #00A0E8;
   /* margin: 4px; */
   padding: 12px;
   border-radius: 2px;
@@ -45,7 +49,7 @@ header {
 }
 
 .sublist{
-  background-color: #00ffff;
+  background-color: #AECFED;
 }
 
 .button {
@@ -153,7 +157,28 @@ a:hover img{
 
 .text {
   font-size: 1.25rem;
-  border-bottom: solid 1px orange;
+  /* border-bottom: solid 1px orange; */
+  border-bottom: solid 2px #efa72b;
+}
+
+.boxtest-b{
+  background: #fff;
+  display: inline-block;
+  /* text-align: center; */
+  border: solid rgb(183, 235, 255);
+  border-radius: 5px; 
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.boxtest-g{
+  background: #fff;
+  display: inline-block;
+  /* text-align: center; */
+  border: solid rgb(193, 255, 193);
+  border-radius: 5px; 
+  padding: 10px;
+  margin-top: 5px;
 }
 
 .center {
@@ -168,7 +193,9 @@ footer {
   border-top: solid 2px gray;
   text-align: center;
   border-radius: 10px;
-  background: lightgray;
+  /* background: lightgray; */
+  background: #AECFED;
+  opacity: 0.9;
   min-width: 584px;
   height: 146px;
 }
@@ -192,7 +219,7 @@ footer {
 /* ▼各部ページ */
 .clubimg {
   width: 180px;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .club-title {
@@ -212,7 +239,8 @@ footer {
   border: 2px solid black;
   border-radius: 5px;
   background-color: #FFA500;
-  padding: 30px 30px 0px 40px;
+  /* padding: 30px 30px 0px 40px; */
+  padding: 30px 30px 10px 30px;
   margin-top: 30px;
 }
 
@@ -224,32 +252,41 @@ div.text{
   border: 2px solid black;
   border-radius: 5px;
   background-color: #FFA500;
-  padding: 30px 30px 0px 40px;
+  /* padding: 30px 30px 0px 40px; */
+  padding: 10px 30px 10px 30px;
   margin-top: 30px;
 }
 .booth h1{
   color: crimson;
+  margin: auto;
 }
 .stage{
   margin-top: 20px;
+  margin-top: 30px;
   border: 2px solid black;
   border-radius: 5px;
   background-color: #87CEFA;
-  padding: 10px 30px 10px 40px;
+  /* padding: 10px 30px 10px 40px; */
+  padding: 10px 30px 10px 30px;
 }
 .stage h1{
   color: blue;
+  margin: auto;
 }
 .L-container {
   float: left;
   width: 20%;
-  margin-left: 10%;
+  /* margin-left: 10%; */
+  margin-left: 3%;
+  margin-right: 2%;
   margin-top: 30px;
 }
 .R-container {
   float: left;
   width: 60%;
-  margin-right: 10%;
+  margin-left: 2%;
+  /* margin-right: 10%; */
+  margin-right: 3%;
   margin-top: 30px;
 }
 /* ▲各部ページ */
